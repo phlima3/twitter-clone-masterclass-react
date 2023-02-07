@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
-import { Sidebar } from "../components/Sidebar";
+import { Sidebar } from "../components/Sidebar/Sidebar";
 
-import './Default.css'
+import "./Default.css";
 
 export function Default() {
   return (
@@ -12,5 +12,5 @@ export function Default() {
         <Outlet />
       </div>
     </div>
-  )
+  );
 }
